@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mediac - Smart Health Accessories</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+  <nav>
+    <h1>Mediac</h1>
+    <span>- The Next Health, From The Next Generation - T.N.G</span>
+  </nav>
+
+  <main class="page2-content">
+    <section>
+      <h2>Smart Health, Everywhere</h2>
+      <p>Mediac accessories use <strong>NFC chips</strong> and <strong>Bluetooth connectivity</strong> for instant access to your medications anywhere in Qatar. Tap, scan, and you’re connected!</p>
+    </section>
+
+    <section class="feature-cards">
+      <div class="card">
+        <h3>NFC Integration</h3>
+        <p>Our NFC-enabled devices provide immediate medication info and seamless app integration.</p>
+      </div>
+      <div class="card">
+        <h3>Bluetooth Comfort</h3>
+        <p>Wearable, ergonomic designs that connect automatically without complicated setup.</p>
+      </div>
+      <div class="card">
+        <h3>Infinite Medication Access</h3>
+        <p>Get instant access to medications across Qatar — AI ensures availability and delivery guidance.</p>
+      </div>
+    </section>
+
+    <section>
+      <p>Experience a new generation of healthcare where your health is always connected, safe, and comfortable.</p>
+    </section>
+
+    <a href="index.html" class="cta-button" id="backBtn">Back to Home</a>
+  </main>
+
+  <script>
+    const btn = document.getElementById('backBtn');
+    btn.addEventListener('click', function(e){
+      e.preventDefault();
+      btn.style.opacity = 0.7;
+      setTimeout(() => {
+        window.location.href = btn.href;
+      }, 2000);
+    });
+  </script>
+</body>
+</html>
